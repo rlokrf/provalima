@@ -1,0 +1,87 @@
+body {
+    background: url('https://lh3.googleusercontent.com/-ihzKRo1T5TU/VDQqYlxgNYI/AAAAAAAAGZM/jbOBPqY9ia0/s0/Coraline_3.jpg')  no-repeat center center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    
+}
+
+header {
+    background-color: #000000;
+    color:rgb(20, 39, 124);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style:none;
+    padding:0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.banner {
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: rgb(12, 15, 102);
+}
+section {
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.book-card{
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 0.345);
+    box-shadow: 0 4px 8px rgb(48, 26, 170);
+    transition: transform 0,3s ease,box-shadow 0,3s ease;
+
+}
+.book-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgb(4, 4, 156);
+}
+.book-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#events {
+    background-color: rgba(31, 26, 125, 0.483);
+}
+
+#about {
+    background-color: rgba(31, 26, 125, 0.483);
+
+}
+
+#teste{
+    background-color:rgba(31, 26, 125, 0.369);
+}
+
+.footer {
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+
